@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>房屋预订</title>
+	<link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/index.css">
+	<link rel="stylesheet" href="../css/房屋预订.css">
+	<script src="../js/jquery.min.js"></script>
+	<script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+<!-- 页头开始 -->
+	<header id="header">
+	  <div class="container-fluid">
+	  	<div class="row">
+	  	  <div class="col-xs-5 col-md-3 header-image">
+	  	  	<img src="../images/短租首页/u129.jpg" alt="">
+	  	  </div>
+	  	  <nav class="col-xs-8 col-md-6 mynav">
+	  	    <div>
+	        <input type="text" class="" placeholder="请输入目的地、明星等">
+	        <button type="button" class="">搜索</button>
+	      </div>
+	  	    <ul class="">
+	  	      <li><a href="../index.html">首页</a></li>
+	  	      <li><a href="../html/登录.html">登录/注册</a></li>
+	  	      <li><a href="#">APP下载</a></li>
+	  	    </ul>
+	  	  </nav>
+	  	  <div class="col-xs-5 col-md-3 header-phone">
+	  	    <img src="../images/短租首页/u370.png" alt="联系电话">
+	  	    <span>客服电话：8008208820</span>
+	  	  </div>
+	  	</div>
+	  </div>
+	</header>
+<!-- 内容部分-->
+	<section class="container-fluid" id="order-state">
+	  <div class="state-image">
+	  	<img src="../images/房屋预订/u1510.png" alt="">
+	  </div>
+	</section>
+	<section class="container" id="order-info">
+	  <div class="row">
+	  	<div class="col-xs-12 col-md-8 content-left">
+  	  	  <div>
+  	  	  	<div class="title">
+	  	      <h3>预订信息.</h3>
+	          <img src="../images/房源展示/u1016.png" alt="">
+	        </div>
+	        <div class="content">
+	          <p>
+	          	<label for="">预订日期:</label>
+        	    <input type="date">至 <input type="date"> 共1晚
+	          </p>
+	          <p><label for="">预订套数：</label>1  <label for="" class="col-md-offset-2">房费：</label>￥100</p>
+	          <p><label for="">入住人数:</label><input type="text" placeholder="最多住5人" name=""></p>
+	        </div>
+  	  	  </div>
+  	  	  <div>
+  	  	  	<div class="title">
+	  	      <h3>入住人信息.</h3>
+	          <img src="../images/房源展示/u1016.png" alt="">
+	        </div>
+	        <div class="content">
+	          <p>
+	          	<label for="">姓名:</label>
+        	    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" placeholder="必填">
+	          </p>
+	          <p><label for="">身份证号：</label><input type="text" placeholder="必填"> </p>
+	        </div>
+  	  	  </div>
+  	  	  <div>
+  	  	  	<div class="title">
+	  	      <h3>房东规定.</h3>
+	          <img src="../images/房源展示/u1016.png" alt="">
+	        </div>
+	        <div class="content">
+	          <p>退款政策：房客一旦支付，取消订单概不退款。 </p>
+	          <p>温馨提示：您还需要线下支付给房东押金￥700元；</p>
+	        </div>
+  	  	  </div>
+  	  	  <div class="left-bottom" >
+  	  	  	<p><strong>合计：</strong> ￥56</p>
+  	  	  	<a href="#" class="btn btn-success pull-right" id="submit-btn">提交订单</a>
+  	  	  </div>
+	  	</div>
+	  	<div class="col-xs-6 col-md-4 content-right">
+	  	  <div>
+	  	  	<img src="../images/房屋预订/u1475.jpg" alt="">
+	  	    <h3>西安草滩创新花园豪宅</h3>
+		  	<table class="table table-bordered">
+		  	  <thead>
+		  	    <tr>
+		  	  	  <td colspan="2">2017年3月19日到3月20日 共一晚</td>
+		  	  	</tr>
+		  	  </thead>
+		  	  <tbody>
+		  	    <tr>
+		  	  	  <td>房费</td>
+		  	  	  <td>100</td>
+		  	  	</tr>
+		  	  	<tr>
+		  	  	  <td>保险</td>
+		  	  	  <td>免费</td>
+		  	  	</tr>
+		  	  </tbody>
+		  	</table>
+	  	    <p>订单总额：<span>￥100</span></p>
+	  	    <p>线上支付到换境：<span>￥100</span></p>
+	  	  </div>
+	  	</div>
+	  </div>
+	</section>
+<!--页脚部分  -->
+  <footer class="container-fluid" id="footer">
+  	<div class="container">
+      <div class="row">
+	  	  <div class="col-xs-4 col-md-2">
+	  	  	<h3><a href="#">关于我们</a></h3>
+	  	  	<div class="text-left">
+	  	  	  <p><a href="#">换境</a></p>
+	  	  	  <p><a href="#">加入换境</a></p>
+	  	  	</div>
+	  	  </div>
+	  	  <div class="col-xs-4 col-md-2">
+	  	  	<h3><a href="#">换境业务</a></h3>
+	  	  	<div class="text-left">
+	  	  	  <p><a href="#">业务体系</a></p>
+	  	  	  <p><a href="#">换境产品</a></p>
+	  	  	  <p><a href="#">换境体系</a></p>
+	  	  	</div>
+	  	  </div>
+	  	  <div class="col-xs-4 col-md-2 ">
+	  	  	<h3><a href="#">关注换境</a></h3>
+	  	  	<div class="text-left">
+	  	  	  <p><a href="#">换境微信</a></p>
+	  	  	  <p><a href="#">下载APP</a></p>
+	  	  	</div>
+	  	  </div>
+	  	  <div class="col-xs-4 col-md-2 col-md-offset-2 " style="padding-top: 20px;">
+	  	  	<img src="../images/短租首页/u109.png" alt="">
+	  	  	<p>下载APP</p>
+	  	  </div>
+	  	  <div class="col-xs-4 col-md-2" style="padding-top: 20px;">
+	  	  	<img src="../images/短租首页/u109.png" alt="">
+	  	  	<p>关注微信公众号</p>
+	  	  </div>
+	  	</div>
+	  	<div class="navbar navbar-collapse">
+	  	  <ul class="nav navbar-nav">
+	  	  	<li class="active"><a href="#">友情链接</a></li>
+	  	  	<li><a href="">换境</a></li>
+	  	  	<li><a href="">换境</a></li>
+	  	  	<li><a href="">换境</a></li>
+	  	  	<li><a href="">换境</a></li>
+	  	  	<li><a href="">换境</a></li>
+	  	  	<li><a href="">换境</a></li>
+	  	  	<li><a href="">换境</a></li>
+	  	  	<li><a href="">换境</a></li>
+	  	  	<li><a href="">换境</a></li>
+	  	  </ul>
+	  	</div>
+	  	<div class="text-left">
+	  	  <img src="../images/短租首页/u129.jpg" alt="">
+	  	</div>	
+  	</div>
+  </footer>
+  <script>
+  	$(function(){
+  		$("#submit-btn").click(function(){
+  			alert("提交成功！");
+  		});
+  	})
+  </script>
+</body>
+</html>

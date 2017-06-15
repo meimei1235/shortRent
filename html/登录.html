@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no">
+	<title>登录</title>
+	<link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/index.css">
+	<link rel="stylesheet" href="../css/登录.css">
+	<script src="../js/jquery.min.js"></script>
+	<script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+<!-- 页头部分-->
+  <header id="header">
+	  <div class="container-fluid">
+	  	<div class="row">
+	  	  <div class="col-xs-5 col-md-3 header-image">
+	  	  	<img src="../images/短租首页/u129.jpg" alt="">
+	  	  </div>
+	  	  <nav class="col-xs-8 col-md-6 mynav">
+	  	    <div>
+            <input type="text" class="" placeholder="请输入目的地、明星等">
+            <button type="button" class="">搜索</button>
+          </div>
+	  	    <ul class="">
+	  	      <li><a href="../index.html">首页</a></li>
+	  	      <li><a href="../html/登录.html">登录/注册</a></li>
+	  	      <li><a href="">APP下载</a></li>
+	  	    </ul>
+	  	  </nav>
+	  	  <div class="col-xs-5 col-md-3 header-phone">
+	  	    <img src="../images/短租首页/u370.png" alt="联系电话">
+	  	    <span>客服电话：8008208820</span>
+	  	  </div>
+	  	</div>
+	  </div>
+  </header>
+<!-- 内容部分 -->
+  <section class="container" id="login">
+  	<div class="panel panel-default">
+	  <div class="panel-body">
+	    <ul class="nav nav-tabs" role="tablist">
+          <li role="presentation" class="active "><a href="#login-in" aria-controls="login-in" role="tab" data-toggle="tab"><strong>登录</strong></a></li>
+          <li role="presentation"><a href="#sign-in" aria-controls="sign-in" role="tab" data-toggle="tab"><strong>注册</strong></a></li>
+        </ul>
+        <div class="tab-content">
+        <!-- 登录部分 -->
+          <div class="tab-pane active" id="login-in" role="tabpanel">
+          	<form action="" class="form-horizontal">
+          	  <div class="form-group">
+			    <label for="Email1"  class="col-sm-5 col-md-3">用户名：</label>
+			    <div class="col-sm-10 col-md-8">
+			      <input type="text" class="form-control" id="Email1" placeholder="请输入用户名、邮箱或手机">
+			    </div>
+			  </div>
+			  <div class="form-group">
+			    <label for="password"  class="col-sm-5 col-md-3">密码：</label>
+			    <div class="col-sm-10 col-md-8">
+			      <input type="password" class="form-control" id="password" placeholder="请6-16位密码，区分大小写">
+			    </div>
+			  </div>
+			  <div class="form-group">
+				<div class="checkbox">
+				  <label><input type="checkbox"> 下次自动登录</label>
+				  <label class="col-md-offset-4"><a href="">忘记密码</a></label>
+				</div>
+			  </div>
+			  <div class="login-btn" id="login-btn">
+			  	<button type="submit" class="btn btn-success btn-lg">登录</button>
+			  </div>
+			  <div class="login-way">
+			  	<span>其他登录方式</span>
+			  	<a href="#"><img src="../images/短租首页/u419.png" alt="微信"></a>
+			  	<a href="#"><img src="../images/短租首页/u421.png" alt="微博"></a>
+			  	<a href="#"><img src="../images/短租首页/u423.png" alt="QQ"></a>
+			  </div>
+          	</form>
+          </div>
+          <!-- 注册部分 -->
+          <div class="tab-pane" id="sign-in" role="tabpanel">
+          	<form action="" class="form-horizontal">
+          		<div class="form-group">
+			    <label for="username"  class="col-sm-5 col-md-3">用户名：</label>
+			    <div class="col-sm-10 col-md-8">
+			      <input type="text" class="form-control" id="username" placeholder="4-20个字符，数字、字母组合">
+			    </div>
+			  </div>
+			  <div class="form-group">
+			    <label for="password"  class="col-sm-5 col-md-3">密码：</label>
+			    <div class="col-sm-10 col-md-8">
+			      <input type="password" class="form-control" id="password" placeholder="请6-16位密码，区分大小写">
+			    </div>
+			  </div>
+			  <div class="form-group">
+			    <label for="password-again"  class="col-sm-5 col-md-3">确认密码：</label>
+			    <div class="col-sm-10 col-md-8">
+			      <input type="password" class="form-control" id="password-again" placeholder="请再次输入密码">
+			    </div>
+			  </div>
+			  <div class="form-group">
+				<label for="password-again"  class="col-sm-5 col-md-3">手机：</label>
+			    <div class="col-sm-10 col-md-8">
+			      <input type="text" class="form-control" id="phone" placeholder="常用的手机">
+			    </div>
+			  </div>
+			  <div class="form-group">
+				<label for="password-again"  class="col-sm-5 col-md-3">手机验证码：</label>
+			    <div class="col-sm-7 col-md-5">
+			      <input type="text" class="form-control">
+			    </div>
+			    <div class="col-sm-5 col-md-3">
+			      <button class="btn btn-default">获取验证码</button>
+			    </div>
+			  </div>
+			  <div class=" login-btn" id="sign-btn">
+			  	<button type="submit" class="btn btn-success btn-lg">立即注册</button>
+			  </div>
+			  <div class="login-way">
+			  	<span>其他登录方式</span>
+			  	<a href="#"><img src="../images/短租首页/u419.png" alt="微信"></a>
+			  	<a href="#"><img src="../images/短租首页/u421.png" alt="微博"></a>
+			  	<a href="#"><img src="../images/短租首页/u423.png" alt="QQ"></a>
+			  </div>
+          	</form>
+          </div>
+        </div>
+	  </div>
+    </div>
+  </section>
+<!--页脚部分 -->
+  <footer class="container-fluid" id="footer">
+  	<div class="container">
+      <div class="row">
+	  	  <div class="col-xs-4 col-md-2">
+	  	  	<h3><a href="#">关于我们</a></h3>
+	  	  	<div class="text-left">
+	  	  	  <p><a href="#">换境</a></p>
+	  	  	  <p><a href="#">加入换境</a></p>
+	  	  	</div>
+	  	  </div>
+	  	  <div class="col-xs-4 col-md-2">
+	  	  	<h3><a href="#">换境业务</a></h3>
+	  	  	<div class="text-left">
+	  	  	  <p><a href="#">业务体系</a></p>
+	  	  	  <p><a href="#">换境产品</a></p>
+	  	  	  <p><a href="#">换境体系</a></p>
+	  	  	</div>
+	  	  </div>
+	  	  <div class="col-xs-4 col-md-2 ">
+	  	  	<h3><a href="#">关注换境</a></h3>
+	  	  	<div class="text-left">
+	  	  	  <p><a href="#">换境微信</a></p>
+	  	  	  <p><a href="#">下载APP</a></p>
+	  	  	</div>
+	  	  </div>
+	  	  <div class="col-xs-4 col-md-2 col-md-offset-2 " style="padding-top: 20px;">
+	  	  	<img src="../images/短租首页/u109.png" alt="">
+	  	  	<p>下载APP</p>
+	  	  </div>
+	  	  <div class="col-xs-4 col-md-2" style="padding-top: 20px;">
+	  	  	<img src="../images/短租首页/u109.png" alt="">
+	  	  	<p>关注微信公众号</p>
+	  	  </div>
+	  	</div>
+	  	<div class="navbar navbar-collapse">
+	  	  <ul class="nav navbar-nav">
+	  	  	<li class="active"><a href="">友情链接</a></li>
+	  	  	<li><a href="">换境</a></li>
+	  	  	<li><a href="">换境</a></li>
+	  	  	<li><a href="">换境</a></li>
+	  	  	<li><a href="">换境</a></li>
+	  	  	<li><a href="">换境</a></li>
+	  	  	<li><a href="">换境</a></li>
+	  	  	<li><a href="">换境</a></li>
+	  	  	<li><a href="">换境</a></li>
+	  	  	<li><a href="">换境</a></li>
+	  	  </ul>
+	  	</div>
+	  	<div class="text-left">
+	  	  <img src="../images/短租首页/u129.jpg" alt="">
+	  	</div>	
+  	</div>
+  </footer>
+  <script>
+  	$(function(){
+  		$("#login-btn button").click(function(){
+  			alert("登录成功！")
+  		}); 
+  		$("#sign-btn button").click(function(){
+  			alert("注册成功！请登录！")
+  		});
+  	})
+  </script>
+</body>
+</html>

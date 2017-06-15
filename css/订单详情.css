@@ -1,0 +1,28 @@
+#order-page {
+	background: #F5F8FA;
+	padding-top: 10px;
+    padding-bottom: 10px;
+}
+#order-page  a {
+	color: #199ED8;
+}
+#order-page span {
+	margin-left: 30px;
+}
+#order-page  a:hover {
+	color: black;
+	text-decoration: underline;
+}
+#order-page .row {
+	background: #F5F8FA;
+	padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid #C9C9C9;
+}
+#order-page h4 {
+	text-align: center;
+}
+.order-content {
+	 width: 600px; 
+    margin: 10px auto;
+}

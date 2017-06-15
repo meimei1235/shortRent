@@ -1,0 +1,124 @@
+#introduce-pic {
+	margin-top: 20px;
+    margin-bottom: 20px;
+}
+#introduce-pic div>img{
+	width: 600px;
+	height: 463px;
+}
+#introduce-pic:first-child {
+	width: 53.5%;
+    padding: 5px;
+    border: 1px solid #CDEBE0;
+    border-radius: 5px;
+    text-align: center;
+}
+.list-group {
+	position: absolute;
+    top: 20px;
+    left: 54%;
+    width: 15%;
+}
+.list-group>a {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.list-group img {
+	width: 154px;
+    height: 96px;
+    text-align: center;
+}
+#introduce-pic aside {
+    position: fixed;
+    top: 90px;
+    left: 68%;
+	width: 23%;
+    border: 1px solid #A7DCCA;
+    border-radius: 5px;
+    box-shadow: 1px 2px 2px #080808;
+    background-color: #dff0d8;
+    z-index: 100;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#introduce-pic aside>p {
+	margin-top: 10px;
+}
+#introduce-pic aside .title {
+	border-bottom: 1px solid #CDEBE0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#introduce-pic aside h3 {
+	text-align: left;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+#introduce-pic aside .title small {
+	display: block;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    text-align: right;
+}
+#introduce-pic aside .form-group {
+	margin-top: 15px;
+}
+#introduce-pic aside .form-control {
+	width: 36%;
+	display: inline;
+}
+.btn-lg {
+	width: 100px;
+    margin: 10px 0;
+}
+.aside-footer {
+	margin-top: 30px;
+    margin-bottom: 20px;
+}
+.aside-footer a {
+	border: 1px solid #348365;
+	width: 70px;
+    border-radius: 4px;
+    padding: 7px 5px;
+    background-color: #fff;
+}
+.aside-footer .collect {
+	margin-right: 30px;
+}
+ .aside-footer .collect>img {
+	width: 22px;
+}
+article>div {
+	width: 72%;
+}
+article>div>.title h3 {
+	display: inline-block;
+    border-left: 5px solid #348365;
+    padding-left: 10px;
+}
+article>div>.title img {
+	width: 75%;
+}
+.table>tbody>tr>td {
+	border-top: none;
+}
+.content {
+	padding-left: 50px;
+    padding-right: 25px;
+    padding-top: 20px;
+}
+.content-item {
+	float: left;
+    width: 32%;
+    text-align: center;
+    margin-top: 15px;
+}
+ .modal{
+    top: 20px;
+}
+#myModal>div {
+    width: 250px;
+    text-align: center;
+}

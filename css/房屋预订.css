@@ -1,0 +1,57 @@
+
+ #order-state {
+	border-bottom: 1px solid #ccc;
+}
+.state-image {
+	margin: auto;
+    width: 50%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.title h3 {
+	display: inline-block;
+    border-left: 5px solid #348365;
+    padding-left: 10px;
+}
+.title img {
+    width: 75%;
+}
+.content {
+	padding-left: 50px;
+    padding-right: 25px;
+    padding-top: 20px;
+}
+#order-info .content-left, #order-info .content-right>div {
+	border: 1px solid #ccc;
+	margin-top: 20px;
+    padding-bottom: 15px;
+    background-color: #F2F2F2;
+}
+#order-info .content-left>div {
+	padding: 20px 10px 0 10px;
+}
+#order-info .content p {
+	margin-bottom: 20px;
+}
+#order-info .content p label {
+	margin-right: 10px;
+}
+#order-info .content p input {
+	margin-left: 10px;
+    margin-right: 10px;
+}
+#order-info .left-bottom p{
+	text-align: right;
+}
+.content-right {
+    text-align: center;
+
+}
+.content-right>div {
+	padding-left: 15px;
+    padding-right: 15px;
+}
+.content-right img {
+	width: 100%;
+	margin-top: 15px;
+}

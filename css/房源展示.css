@@ -1,0 +1,69 @@
+
+#display-list a, #display-image li a {
+	color: black;
+}
+#display-image li a:hover {
+	color: blue;
+	background-color: #D9D4D4;
+}
+#display-list {
+	padding: 15px;
+}
+#display-list table, #display-list table th {
+	text-align: center;
+
+}
+#display-list .panel-heading {
+	padding: 0px;
+}
+.thumbnail>img {
+	border-radius: 9px;
+}
+#display-image .favour-logo {
+	top: 10px;
+    left: 320px;
+}
+#display-image .caption a {
+	position: relative;
+    left: 250px;
+    top: -5px;
+}
+#display-image .room-price {
+	top: 220px;
+	left: 25px;
+}
+.panel {
+	box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+.panel-footer {
+	background-color: #dff0d8;
+}
+.panel-footer nav {
+	text-align: center;
+}
+.panel-footer nav ul {
+	margin: 0;
+}
+#page2 {
+	display: none;
+}
+#browsed-list>p {
+	margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    border-left: 5px solid green;
+}
+#browsed-list>p>strong {
+	font-weight: 400;
+	font-size: 24px
+}
+#browsed-list>p>span {
+	padding-left: 10px;
+}
+#browsed-list>p>img {
+	width: 80%;
+    margin-left: 20px;
+}
+#browsed-list .thumbnail {
+	border: none;
+}

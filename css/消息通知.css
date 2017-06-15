@@ -1,0 +1,171 @@
+.container>p {
+	margin-top: 20px;
+    margin-bottom: 20px;
+}
+#message>p {
+    position: relative;
+    z-index: 1000;
+	width: 100px;
+    border: 1px solid black;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-bottom: none;
+    background: white;
+}
+.chat-room {
+	position: relative;
+    top: -1px;
+	border: 1px solid black;
+    padding: 10px;
+    height: 120px;
+    overflow: auto;
+}
+.chat-room img {
+	display: block;
+    float: left;
+}
+.chat-room>div {
+    width: 80%;
+    margin-left: 100px;
+}
+.message-list {
+	text-align: center;
+}
+.message-list>a {
+	margin-bottom: 10px;
+}
+.message-list>a:hover {
+	border-color: red;
+}
+.message-list>a>span {
+	margin-right: 10px;
+}
+/********************** 账户管理******************/
+.tab-pane {
+	padding: 10px;
+	border: 1px solid #ddd; 
+    border-top: none;
+}
+#personal-info {
+	height: 350px;
+}
+#personal-info>div {
+	text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid black;
+}
+.form-horizontal .form-group {
+	margin-left: 0;
+	margin-right: 0;
+}
+.control-label {
+	width: 20%;
+}
+.form-control {
+	width: 50%;
+    margin: auto;
+    display: inline-block;
+    margin-left: 10px;
+}
+.checkbox {
+	display: inline-block;
+	margin-left: 10px;
+}
+form {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+form .form-group:last-child {
+	text-align: center;
+}
+form:last-child button {
+	width: 100px;
+}
+/******密码设置 *******/
+#password-set {
+    height: 250px;
+}
+#password-set small {
+	color: #999;
+}
+/******优惠信息********/
+#discount-info .discount-type {
+	text-align: center;
+	margin-top: 20px;
+    margin-bottom: 20px;
+}
+#discount-info .discount-content {
+	padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 0px;
+}
+#discount-info .discount-content p {
+	font-size: 13px;
+	margin-left: 10px;
+	margin-top: 10px;
+	line-height: 1.8;
+}
+/********************** 我的订单******************/
+#charging, #charged, #all-orders {
+	font-size: 13px;
+	height: 200px;
+}
+#charging form, #charged form, #all-orders form {
+	padding-bottom: 5px;
+    height: 40px;
+    padding-top: 5px;
+    background-color: #F2F2F2;
+    margin-top: 0px;
+}
+#charging p a, #charged p a, #all-orders p a {
+	color: #419ED8;
+}
+#charging p a:hover, #charged p a:hover, #all-orders p a:hover {
+	color: black;
+	text-decoration: underline;
+}
+#charging form>div, #charged form>div, #all-orders form>div {
+	float: left;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+#charging form input, #charged form input, #all-orders form input{
+	width: 150px;
+}
+.order-address {
+	width: 40%;
+	float: left;
+	/* border-right: 1px solid green; */
+	margin-top: 15px;
+}
+.order-address>div {
+	float: right;
+    width: 60%;
+    padding: 10px 8px;
+    margin-right: 0px;
+}
+.order-item {
+	width: 15%;
+	height: 112px;
+    float: left;
+    padding-left: 10px;
+    border-left: 1px solid green;
+    padding-right: 10px;
+    text-align: center;
+    margin-top: 15px;
+}
+#charged .order-item {
+	width: 20%;
+}
+.order-item input {
+	width: 90px;
+}
+.order-item-center {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
